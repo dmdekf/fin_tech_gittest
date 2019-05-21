@@ -48,5 +48,11 @@ console.log('End')
 var i ;
 
 for (i = 0; i < cars.length ; i++) {
-    console.log(cars[i])
+    if (cars[i] == "BMW1") {
+        console.log("BMW 차량이 있습니다.");
+    }
+    else {
+        console.log("BMW 차량이 없습니다.");
+    }
 }
+
